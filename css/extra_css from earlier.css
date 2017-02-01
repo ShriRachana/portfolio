@@ -1,0 +1,930 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+    background-color:black;
+    height: 100%;
+}
+body, p, td, th {
+    font-family: SegoeUI Light, Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+h1, h2, h3, h4 {
+    font-family:Transformers Original;
+}       
+
+
+#header {
+    font-family: Transformers Original;
+    font-size: 1em;
+    letter-spacing: 1.1em;
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: rgba(7, 7, 7, .7);
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 20px 0;
+    top: 15px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+
+#footer {
+    font-family: Transformers Original;
+    font-size: 1.5em;
+    letter-spacing: 1.2em;
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background-color: rgba(7, 7, 7, .7);
+    z-index: 9;
+    color: #f2f2f2;
+    padding: 0px 0 0 0;
+    bottom: 0px;
+}
+
+/* SECTION */
+
+.section {
+    height:100%;
+    height: 100vh;
+    background: black;
+    
+}
+
+div#landing {
+    background: url("http://bbots.kabam.com/portal3/img/landing.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+}
+
+div#information {
+    background: url("http://bbots.kabam.com/portal3/img/information.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+    background-color: white;
+}
+
+div#contest_prizes {
+    background: url("http://bbots.kabam.com/portal3/img/contest_prizes.jpg") no-repeat bottom bottom fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;  
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+}
+
+
+div#faq {
+    background: url("http://bbots.kabam.com/portal3/img/faq.png") no-repeat center bottom fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;  
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+    background-color: #000026;
+}
+
+div#installation {
+    background: url("http://bbots.kabam.com/portal3/img/installation.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;  
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+    background-color: #4c0000;
+}
+
+
+.section_area {
+    background-color: rgba(31, 31, 31, .4);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:100%;
+}
+
+/* CENTERING CONTENT */
+
+.outer {
+    display: table;
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.outer_header {
+    display: table;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+   margin-left: auto;
+    margin-right: auto;
+    width: /*whatever width you want*/
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/***** OPTIMUS COLORS **** */
+
+.optimusc {
+    color: #859BD4;
+}
+
+.expand {
+    text-align: center;
+}
+
+.expand a {
+    color: white;
+    font-size: 1.1em;
+}
+
+
+
+/** BUTTON STYLES **/
+#button {
+    background-color: #211515;
+    border: none;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#button {
+    border-radius: 10%;
+}
+
+div.accordion {
+    background-color: rgba(31, 31, 31, .5);
+    cursor: pointer;
+    margin-bottom: 5px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    /*outline-style: none;
+              outline-color:white;
+              border:1.5px outset black;*/
+    font-size: 15px;
+    transition: 0.4s;
+    color: white;
+    font-size: 1.5em;
+}
+
+div.accordion.active,
+div.accordion:hover {
+    opacity: 0.4;
+    background-color: #000066;
+    border: none;
+    filter: Alpha(opacity=50);
+    /* IE8 and earlier */
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+    font-size: .7em;
+}
+
+div.panel.show {
+    display: block;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+    ==========================================================================
+    ==========================================================================
+
+   MEDIA QUERIES -- ADDED BY ROB 10/27/
+
+   ==========================================================================
+   ==========================================================================
+   ========================================================================== */
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+
+   {
+/* Styles */
+    #header { 
+        padding: 10px 0 10px 0;
+    }
+
+    #information {
+        background: url("http://bbots.kabam.com/portal3/img/information.jpg") no-repeat center center;
+        -webkit-background-size: 30%;
+        -moz-background-size: 30%;
+        -o-background-size: 30%;
+        background-size: 30%;
+    }
+
+    #contest_prizes {
+        background: url("http://bbots.kabam.com/portal3/img/contest_prizes_small.jpg") no-repeat center center;
+        -webkit-background-size: 30%;
+        -moz-background-size: 30%;
+        -o-background-size: 30%;
+        background-size: 30%;
+    }
+
+    #installation {
+    background: url("http://bbots.kabam.com/portal3/img/installation.png") no-repeat center center;
+    -webkit-background-size: 30%;
+    -moz-background-size: 30%;  
+    -o-background-size: 30%;
+    background-size: 30%;
+    }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+
+    #header {
+        padding: 10px 0 10px 0;
+    }
+
+    #information {
+        background: url("http://bbots.kabam.com/portal3/img/information.png") no-repeat center center;
+        -webkit-background-size: 30%;
+        -moz-background-size: 30%;
+        -o-background-size: 30%;
+        background-size: 30%;
+    }
+
+    #contest_prizes{
+        background: url("http://bbots.kabam.com/portal3/img/contest_prizes_small.jpg") no-repeat center center;
+        -webkit-background-size: 30%;
+        -moz-background-size: 30%;
+        -o-background-size: 30%;
+        background-size: 30%;
+
+    }
+
+    #installation {
+    background: url("http://bbots.kabam.com/portal3/img/installation.png") no-repeat center center;
+    -webkit-background-size: 30%;
+    -moz-background-size: 30%;  
+    -o-background-size: 30%;
+    background-size: 30%;
+    }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+        #header {
+        padding: 10px 0 10px 0;
+    }
+
+
+    div#information {
+        background: url("http://bbots.kabam.com/portal3/img/information.png") no-repeat center right;
+        -webkit-background-size: 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
+        background-size: 70%;
+        background-color: white;
+    }
+
+    div#contest_prizes{
+        background: url("http://bbots.kabam.com/portal3/img/contest_prizes_small.jpg") no-repeat center center;
+        -webkit-background-size: 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
+        background-size: 70%;
+    }
+
+        div#faq{
+        background: url("http://bbots.kabam.com/portal3/img/faq.png") no-repeat center center fixed;
+        -webkit-background-size: 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
+        background-size: 70%;
+    }
+
+    div#installation {
+    background: url("http://bbots.kabam.com/portal3/img/installation.png") no-repeat center center fixed;
+    -webkit-background-size: 70%;
+    -moz-background-size: 70%;  
+    -o-background-size: 70%;
+    background-size: 70%;
+    }
+}
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+ /* and (-webkit-min-device-pixel-ratio: 2)*/
+  and (orientation: portrait) { 
+
+        #header {
+        padding: 10px 0 10px 0;
+    }
+
+
+    div#information {
+        background: url("http://bbots.kabam.com/portal3/img/information.png") no-repeat center right;
+        -webkit-background-size: 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
+        background-size: 70%;
+        background-color: white;
+    }
+
+    div#contest_prizes{
+        background: url("http://bbots.kabam.com/portal3/img/contest_prizes_small.jpg") no-repeat center center;
+        -webkit-background-size: 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
+        background-size: 70%;
+    }
+
+        div#faq{
+        background: url("http://bbots.kabam.com/portal3/img/faq.png") no-repeat center center;
+        -webkit-background-size: 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
+        background-size: 70%;
+    }
+     div#installation {
+    background: url("http://bbots.kabam.com/portal3/img/installation.png") no-repeat center bottom;
+    -webkit-background-size: 70%;
+    -moz-background-size: 70%;  
+    -o-background-size: 70%;
+    background-size: 70%;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+    div#faq{
+        background: url("http://bbots.kabam.com/portal3/img/faq.png") no-repeat center center;
+        -webkit-background-size: 70%;
+        -moz-background-size: 70%;
+        -o-background-size: 70%;
+        background-size: 70%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

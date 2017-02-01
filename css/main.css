@@ -1,0 +1,1410 @@
+/*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: .5px dotted #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {
+    background-color:black;
+    height: 100%;
+}
+body, p, td, th {
+    font-family: SegoeUI Light, Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color:white;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family:Transformers Original;
+    letter-spacing: .2em;
+}       
+
+h4 {
+  color: #960101;
+  margin-top: 0px;
+}
+
+.header {
+    font-family: Transformers Original;
+    font-size: 1em;
+    letter-spacing: 1.1em;
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: rgba(7, 7, 7, .7);
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+    padding: 20px 0 20px 0;
+    top: 15px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.headermore a{
+    color:white;
+}
+
+.headermore a:after{content:' rajasekaran';}
+
+#intro_faq { 
+  padding-bottom:2%; 
+}
+
+
+/*FOOTER */
+#footer {
+    font-family: Transformers Original;
+    font-size: 1.0em;
+    letter-spacing: .4em;
+    word-spacing: 1em;
+    position: fixed;
+    height: 50px;
+    display: block;
+    width: 100%;
+    background-color: rgba(7, 7, 7, .7);
+    z-index: 9;
+    color: #f2f2f2;
+    padding: 0px 0 0 0;
+    bottom: 0px;
+
+}
+
+.column1{
+  float: left;
+  padding-left:1%;
+}
+
+.column2{
+  margin-top:0.2%;
+  float: right;
+}
+
+/* SECTION */
+
+.section {
+    height:100%;
+    height: 100vh;
+    background: black;
+    
+}
+
+div#landing {
+    background: url("http://shrirachana.com/img/landing.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:100%;
+}
+
+div#information {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+    background-color: white;
+}
+
+div#contest_prizes {
+    background: url("http://bbots.kabam.com/img/landing.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;  
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+}
+
+
+div#faq {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat right bottom fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;  
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+    background-color: white;
+}
+
+div#installation {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center center fixed;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;  
+    -o-background-size: contain;
+    background-size: contain;
+    width:100%;
+    
+}
+
+
+.section_area {
+    background-color: rgba(31, 31, 31, .4);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:100%;
+    /*font-weight: 600; */
+    font-size:1.2em;
+}
+
+.section_area_white {
+    background-color: rgba(31, 31, 31, .8);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width:100%;
+    /*font-weight: 600; */
+    font-size:1.2em;
+    text-align: left;
+}
+
+.intro {
+  padding: 0px 1% 0px 1%;
+}
+
+.wht_bkg {
+  color: rgb(128,2,4);
+  text-shadow:3px 3px 7px white;
+}
+.yellow_bkg {
+  color: yellow;
+  text-shadow:3px 3px 7px rgb(128,2,4);
+}
+
+.textContainer_Truncate {
+  margin-top:-20px;
+}
+
+.textContainer_Truncate a {
+  color: #859BD4;
+}
+
+u {
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+}
+
+
+/* CENTERING CONTENT */
+
+.outer {
+    display: table;
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.outer_header {
+    display: table;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+   margin-left: auto;
+    margin-right: auto;
+    width: /*whatever width you want*/
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+.left {
+    text-align: left;
+}
+
+h1.left {
+  padding-left:1%;
+  text-transform: uppercase;
+}
+
+h2.left {
+  padding-left:1%;
+}
+
+
+/***** OPTIMUS COLORS **** */
+
+.optimusc {
+    color: #859BD4;
+}
+
+.expand {
+    text-align: center;
+}
+
+.expand a {
+    color: white;
+    font-size: 1.1em;
+}
+
+
+
+/** BUTTON STYLES **/
+#button {
+    background-color: rgb(128,2,4);
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#button {
+    border-radius: 2%;
+    width:220px;
+}
+
+.button {
+    background-color: rgb(128,2,4);
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    width:270px;
+}
+
+.button {
+    border-radius: 2%;
+}
+
+div.accordion {
+    background-color: rgba(31, 31, 31, .7);
+    cursor: pointer;
+    /*margin-bottom: 5px;*/
+    width: 100%;
+    border: none;
+    text-align: center;
+    /*outline-style: none;
+              outline-color:white;
+              border:1.5px outset black;*/
+    font-size: 15px;
+    transition: 0.4s;
+    color: white;
+    font-size: 1.2em;
+    border-bottom: 1px dotted;
+    padding:10px 0 10px 0;
+}
+
+#button_gray {
+   
+    background-color: rgba(41, 46, 55, .9);
+    /*color: red;
+    background-color: rgba(7, 7, 7, .9);*/
+    border: none;
+    width: 220px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+div.accordion.active,
+div.accordion:hover {
+    opacity: 0.9;
+    background-color: rgb(128,2,4);
+    /*font-weight: 600;*/
+    border: none;
+    filter: Alpha(opacity=50);
+    /* IE8 and earlier */
+}
+
+div.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: rgba(7, 7, 7, .8);
+   /* font-size: .7em; */
+}
+
+div.panel.show {
+    display: block;
+    padding: 25px 2px 25px 2px;
+}
+#red{
+    /*color: rgb(124,2,4);*/
+    /*color:rgb(150,3,5);*/
+    color:red;
+    font-weight: 900;
+    text-transform: uppercase;
+} 
+#nocaps{
+    /*color: rgb(124,2,4);*/
+    /*color:rgb(150,3,5);*/
+    color:red;
+    font-weight: 900;
+    text-transform: none;
+}
+#yellow{
+    color: yellow;
+    font-weight: 900;
+    text-transform: uppercase;
+} 
+/** MENU FULLSCREEN STYLING W/ RED LINES  **/
+
+ul { margin: 3px;}
+        
+ul li {
+  display: inline-block;
+  padding-top: 5px;
+  margin-right: 20px;
+  border-top: 1px solid transparent;
+  }
+
+  ul li:hover {
+      border-top: 1px solid red;
+  }
+/*
+#intro_faq a {
+  color:red;
+}
+*/
+
+/** HAMBURGER MENU STYLES **/
+
+
+.slicknav_menu {
+  display:none;
+}
+
+@media screen and (max-width: 40em) {
+  /* #menu is the original menu */
+  .js #menu {
+    display:none;
+  }
+
+  .slicknav_menu .slicknav_open {
+    margin-top:-180px; /*added*/
+  }
+  
+  .slicknav_menu .slicknav_open .slicknav_nav {
+    margin-top:-180px;
+  }
+
+  .js .slicknav_menu {
+    display:block; 
+  }
+
+  .slicknav_nav {
+        margin-top:-180px!important; 
+
+    background-color:rgba(7,7,7,.7);
+    text-align:center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+    ==========================================================================
+    ==========================================================================
+
+   MEDIA QUERIES -- ADDED BY ROB 10/27/
+
+   ==========================================================================
+   ==========================================================================
+   ========================================================================== */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* Styles */
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* Styles */
+}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+
+/* Large screens ----------- */
+
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
+
+
+/* iPhone 4 ----------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* Styles */
+}
+
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  div.panel.show{
+  text-align: left;
+}
+
+  div.panel.section_body.show{
+  text-align: left;
+  font-size: 1.2em;
+}
+h1.left {
+ 
+  text-transform: lowercase;
+  letter-spacing: 0.0em;
+  text-align: center! important;
+}
+
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .header {
+    padding: 10px 0 10px 0;
+    letter-spacing: .1em!important;
+  }
+
+  h1.left {
+  padding-left:1%;
+  text-transform: lowercase;
+}
+
+/*FOOTER STYLE*/
+  #apple{
+  margin: none;
+  }
+  .column1{
+  float: left;
+  padding-left:1%;
+  }
+
+  .column2{
+    /* margin-left: 1%; */
+    margin-top: 2px;
+    float: none;
+    font-size: 0.75em;
+    letter-spacing: 0.25em;
+    word-spacing: 0.5em;
+  }
+  /*END OF FOOTER STYLE*/
+
+
+  div#landing {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center right!important;
+    -webkit-background-size: 200%!important;
+    -moz-background-size: 200%!important;
+    -o-background-size: 200%!important;
+    background-size: 200%!important;
+    
+}
+
+  div#information {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center center!important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    background-color: white!important;
+  }
+  div#contest_prizes {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center center!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color: black!important;
+  }
+  div#faq {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat bottom right!important;
+    -webkit-background-size: 60%!important;
+    -moz-background-size: 60%!important;
+    -o-background-size: 60%!important;
+    background-size: 60%!important;
+    background-color:white!important;
+  }
+  div#installation {
+    background: url("http://bbots.kabam.com/img/installation.png") no-repeat center bottom!important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    background-color:black!important;
+  }
+
+  #intro_faq { padding-bottom:5%; }
+
+  div.panel.show{
+  text-align: left;
+}
+
+  div.panel.show {padding: 10px 2px 10px 2px;}
+
+.inner {padding-bottom:5%!important;}
+}
+
+
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+
+  .header {
+    padding: 10px 0 10px 0;
+    letter-spacing: .19em!important;
+  }
+
+  h1.left {
+ 
+  text-transform: lowercase;
+  letter-spacing: 0.0em;
+  text-align: center! important;
+  }
+  /*FOOTER STYLE*/
+  #apple{
+  margin: none;
+  }
+  .column1{
+  float: left;
+  padding-left:1%;
+  }
+
+  .column2{
+    /* margin-left: 1%; */
+    margin-top: 2px;
+    float: none;
+    font-size: 0.75em;
+    letter-spacing: 0.25em;
+    word-spacing: 0.5em;
+  }
+
+  div#landing {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center right!important;
+    -webkit-background-size: 200%!important;
+    -moz-background-size: 200%!important;
+    -o-background-size: 200%!important;
+    background-size: 200%!important;
+    
+}
+
+
+  div#information {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat right bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color: white!important;
+  }
+  div#contest_prizes {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color: black!important;
+  }
+  div#faq {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat right bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color:white!important;
+  }
+  div#installation {
+    background: url("http://bbots.kabam.com/img/installation.png") no-repeat center bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color:black!important;
+  }
+
+  #intro_faq { 
+    padding-bottom:5%; 
+  }
+div.panel.show{
+  text-align: left;
+}
+  div.panel.show {padding: 10px 2px 10px 2px;}
+
+.inner {padding-bottom:5%!important;}
+}
+
+
+
+
+
+
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+
+div.panel.show{
+  text-align: left;
+}
+h1.left {
+ 
+  text-transform: lowercase;
+  letter-spacing: 0.0em;
+  text-align: center! important;
+}
+}
+
+/* Portrait */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .header {
+    padding: 10px 0 10px 0;
+    letter-spacing: .19em!important;
+  }
+
+  h1.left {
+ 
+  text-transform: lowercase;
+  letter-spacing: 0.0em;
+  text-align: center! important;
+}
+
+ /* .section_area {
+    font-size:1.0em;
+}*/
+
+  div#landing {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center right!important;
+    -webkit-background-size: 200%!important;
+    -moz-background-size: 200%!important;
+    -o-background-size: 200%!important;
+    background-size: 200%!important;
+    
+}
+ 
+  div#information {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat right center!important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    background-color: white!important;
+  }
+  div#contest_prizes {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center center!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color: black!important;
+  }
+  div#faq {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat bottom right!important;
+    -webkit-background-size: 60%!important;
+    -moz-background-size: 60%!important;
+    -o-background-size: 60%!important;
+    background-size: 60%!important;
+    background-color:white!important;
+  }
+  div#installation {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center bottom!important;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
+    background-color:black!important;
+  }
+
+    #intro_faq { padding-bottom:5%; }
+
+div.panel.show{
+  text-align: left;
+}
+
+  div.panel.show {
+    padding: 10px 2px 10px 2px;
+  }
+
+.inner {padding-bottom:5%!important;}}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+ 
+  .header {
+    padding: 10px 0 10px 0;
+    letter-spacing: .19em!important;
+  }
+
+h1.left {
+ 
+  text-transform: lowercase;
+  letter-spacing: 0.0em;
+  text-align: center! important;
+}
+div.panel.show{
+  text-align: left;
+}
+
+  div#landing {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center right!important;
+    -webkit-background-size: 200%!important;
+    -moz-background-size: 200%!important;
+    -o-background-size: 200%!important;
+    background-size: 200%!important;
+    
+}
+
+
+  div#information {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat right bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color: white!important;
+  }
+  div#contest_prizes {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color: black!important;
+  }
+  div#faq {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat right bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color:white!important;
+  }
+  div#installation {
+    background: url("http://bbots.kabam.com/img/information2.png") no-repeat center bottom!important;
+    -webkit-background-size: contain!important;
+    -moz-background-size: contain!important;
+    -o-background-size: contain!important;
+    background-size: contain!important;
+    background-color:black!important;
+  }
+
+  #intro_faq { padding-bottom:5%; }
+
+  div.panel.show {padding: 10px 2px 10px 2px;
+  text-align:left;}
+
+  .inner {padding-bottom:5%!important;}
+
+}
+
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {}
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+  .column1{
+  float: left;
+  padding-left:1%;
+  }
+
+  .column2{
+    /* margin-left: 1%; */
+    margin-top: 2px;
+    float: none;
+    font-size: 0.75em;
+    letter-spacing: 0.25em;
+    word-spacing: 0.5em;
+  }
+
+}
+
+
+/* Landscape */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after,
+    *:first-letter,
+    *:first-line {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
